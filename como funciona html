@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>Como Funciona</title>
+        <style>
+            html { background-color:#F6F6F6 }
+            
+            main { width:955px; margin:-1px auto 10px; border:1px solid #ddd; background-color:#FFF; font-family:Arial, Helvetica, sans-serif }
+            header { width:955px; height:95px }
+            
+            nav { width: 955px; background-color: #5D240A }
+            nav ul { list-style:none; margin:0; padding:4px }
+            nav ul li { display:inline-block }
+            nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px }
+            nav ul li a:hover { background-color: #B4531A }
+            
+            article { float:left; margin:30px 20px; width:600px }
+            
+            article header h1 {
+                margin:0;
+            }
+            
+            article header h5 {
+                margin:0; font-size: 1.1em; color:#ccc;
+                font-weight: 100;
+            }
+            
+            aside {
+                float:left;
+                width:230px;
+                border-top:1px solid #CC6633;
+                border-bottom:1px solid #CC6633;
+                padding:40px 10px 0;
+                font-style: italic;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background: url(../imagens/aspas.gif) no-repeat;
+            }
+            
+            aside p {
+                color:#999;   
+            }
+            
+            
+            #apoio { float:right; width:300px; margin-top:30px }		
+            footer { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
+            
+            h1, h2{ font-family:Georgia, "Times New Roman", Times, serif; color:#C63; font-style:italic; letter-spacing:-0.05em; }
+            h1 { font-size:2.6em; margin:0 5px;float:left; }
+            
+            p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
+        </style> 
+	</head>
+
+    <body>
+        <main>
+            <header>
+                <img src="../imagens/topo_principal.jpg" width="955" height="102" alt=""/>
+            </header>
+            
+          
+            <nav>
+                <ul>
+                  <li><a href="como-funciona.html">Como Funciona</a></li>
+                  <li><a href="info.html">Info</a></li>
+                  <li><a href="saude-financeira.html">Saúde Financeira</a></li>
+                  <li><a href="principal.html">Principal</a></li>
+                  <li><a href="simulador.html">Simulador</a></li>
+                </ul>
+            </nav>
+           
+    
+            <article>
+                <header>
+                    <h1>Como Funciona</h1>
+                </header>
+                
+                <h2>Como fazer um empréstimo online? </h2>
+                <h2>Simule sem compromisso</h2>
+                <p>Informe o quanto você precisa e escolha a quantidade de parcelas que você quer pagar. A crédito para todx faz empréstimos de R$ 2 mil a R$ 50 mil, com prazos de pagamento de até 36 vezes.</p>
+                <form action="destino.html" method="post">
+                    <label for="simulador">Simular</label>
+                    <input type="submit" name="simulador" id="simulador"  href="simulador.html" size="40" >
+                    </form>
+                <h2>Preencha o formulário em poucos passos</h2>
+                <p>Faça seu pedido de empréstimo e envie seus documentos, tudo pela internet e de onde você estiver. Não precisa informar a senha do banco nem comprovar renda.</p>
+                <h2>Aguarde a análise dos seus dados</h2>
+                <p>Seu pedido é analisado e em cinco minutos você recebe uma resposta. A crédito para Todx oferece taxas entre 2% e 8,2%, e essa taxa é personalizada com base no seu perfil.</p>
+                <h2>Assine o contrato e receba o dinheiro em sua conta</h2>
+               <p>Após seu pedido ser aprovado, assine o contrato pelo celular ou computador e receba o dinheiro em até 1 dia útil. É rápido, fácil e seguro.</p>
+                <form action="destino.html" method="post">
+                    <label for="simulador">Simular</label>
+                    <input type="submit" name="simulador" id="simulador"  href="simulador.html" size="40" >
+                    </form>
+                
+                <h2>Preencha o formulário em poucos passos</h2>
+                <p>Faça seu pedido de empréstimo e envie seus documentos, tudo pela internet e de onde você estiver. Não precisa informar a senha do banco nem comprovar renda.</p>
+                
+                <h2>Aguarde a análise dos seus dados</h2>
+                <p>Seu pedido é analisado e em cinco minutos você recebe uma resposta.  Oferecemos uma  taxas entre 2% e 8,2%, e essa taxa é personalizada com base no seu perfil.</p>
+                
+                <h2>Assine o contrato e receba o dinheiro em sua conta</h2>
+                <p>Após seu pedido ser aprovado, assine o contrato pelo celular ou computador e receba o dinheiro em até 1 dia útil. É rápido, fácil e seguro.</p>
+            </article>
+
+            
+
+          <footer>
+               <p>Crédito para Todx - Rua Água Branca 1901, - Blumenau -SC</p>
+                <p><small>&copy Copyright 2021 - Kristofher Alfredo Schneider todos direitos reservados.</small></p>
+            </footer>
+            
+		  </main>
+    </body>
+</html>

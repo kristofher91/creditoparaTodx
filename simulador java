@@ -1,0 +1,96 @@
+package testeserasa;
+
+import java.util.Scanner;
+
+public class simulador {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		String nome;
+		int telefone;
+		String aniversario;
+		String email;
+		double parcelas;
+		double valorAPagar;
+		double juros =0.5;
+		String resposta;
+		double valorEmprestimo;
+		
+		System.out.println("Bem vindo ao simulador de crédito online você gostaria de fazer uma simulação?");
+		resposta= teclado.nextLine();
+		if(resposta.equalsIgnoreCase("Sim")) {
+			System.out.println("Favor informar seu nome");
+			nome= teclado.nextLine();
+			
+			System.out.println("Informe seu telefone");
+			telefone = teclado.nextInt();
+			
+			System.out.println("Informe sua data de nascimento");
+			aniversario=teclado.next();
+			
+			System.out.println("Informe seu email");
+			email=teclado.next();
+			
+			System.out.println("Informe o valor que você gostaria de pegar empestado");
+			valorEmprestimo=teclado.nextInt();
+			
+			System.out.println("Em quantas parcelas você gostaria de fazer seu emprestimo?");
+			parcelas = teclado.nextInt();
+			
+			valorAPagar= (valorEmprestimo / parcelas ) * juros;
+			
+			System.out.println(nome +"\n" +telefone +"\n" + aniversario +"\n"+email
+					+ "\n" + valorAPagar +"valor a pagar por mês" );
+			
+			System.out.println("Os dados acima estão corretos?");
+			resposta=teclado.next();
+			
+			while(resposta.equalsIgnoreCase("não")) {
+				System.out.println(" Favor informar qual campo não está correto");
+				resposta= teclado.next();
+				
+				switch(resposta) {
+				case "nome": System.out.println("Favor informar seu nome corretamente por favor");
+				nome= teclado.next();
+				break;
+				
+				case "telefone": System.out.println("Informe seu telefone corretamente por favor");
+				telefone = teclado.nextInt();
+				break;
+				
+				case "aniversario":System.out.println("Informe sua data de nascimento corretamente");
+				aniversario=teclado.next();
+				break;
+				
+				case "email":System.out.println("Informe seu email corretamente por favor");
+				email=teclado.next();
+				break;
+				
+				case "parcelas" : System.out.println("Em quantas parcelas você gostaria de fazer seu emprestimo?");
+				parcelas = teclado.nextInt();
+				break;
+				
+				case "emprestimo": System.out.println("Informe o novo valor que você gostaria de pegar empestado");
+				valorEmprestimo=teclado.nextInt();
+				break;
+				}
+				valorAPagar= (valorEmprestimo / parcelas ) * juros;
+				System.out.println(nome +"\n" +telefone +"\n" + aniversario +"\n"+email
+						+ "\n" + valorAPagar );
+				System.out.println("Os dados acima estão corretos?");
+				resposta=teclado.next();
+			}
+			if(resposta.equalsIgnoreCase("sim")) {
+				System.out.println("Obrigado por fechar negocio conosco!Uum email com seu dados e "
+						+ "seu cotrato chegara em breve, não esqueça de verificar sua caixa de spam ");
+			}
+			
+		}
+		
+		System.out.println("Fique a vontade para entrar em contato conosco ou navegar pelo site a vontade.");
+		teclado.close();
+	}
+}

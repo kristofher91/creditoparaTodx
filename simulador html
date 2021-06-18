@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Simulador</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        <script>
+        function mostrarResultado(){
+                document.getElementById("resultado").innerHTML = document.getElementById("valor").value;
+            }
+        
+        </script>
+        <style>
+            h2 { font-family:Georgia, "Times New Roman", Times, serif; color:#C63; font-style:italic; letter-spacing:-0.05em;float: center;margin-left: 400px;margin-bottom: 80px;font-size: 80px;}
+            
+        </style>
+    </head>
+
+    <body onload="mostrarResultado">
+        
+        <h2>Formulário</h2>
+        <form action="destino.html" method="post">
+            
+            <input type="text" name="nome" id="nome" size="30" maxlength="100" required autofocus placeholder="Insira seu nome">
+            
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" size="30" maxlength="30"> 
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" size="30" maxlength="60" required>             
+             
+            
+            <label for="aniversario">Ano de Nascimento</label>
+            <input type="date" name="aniversario" id="aniversario" size="30">
+            
+            <label for="valor">Informe o valor do Empréstimo desejado</label>
+            <input type="range" nome="valor" id="valor" min="0" max="50000" value="0" onchange="mostrarResultado()">
+            <span id="resultado"></span>
+
+            
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+        </form>
+    
+    </body>
+</html>

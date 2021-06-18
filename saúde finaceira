@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>Saúde financeira</title>
+        <style>
+            html { background-color:#F6F6F6 }
+            
+            main { width:955px; margin:-1px auto 10px; border:1px solid #ddd; background-color:#FFF; font-family:Arial, Helvetica, sans-serif }
+            header { width:955px; height:95px }
+            
+            nav { width: 955px; background-color: #5D240A }
+            nav ul { list-style:none; margin:0; padding:4px }
+            nav ul li { display:inline-block }
+            nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px }
+            nav ul li a:hover { background-color: #B4531A }
+            
+            article { float:left; margin:30px 20px; width:600px }
+            
+            article header h1 {
+                margin:0;
+            }
+            
+            article header h5 {
+                margin:0; font-size: 1.1em; color:#ccc;
+                font-weight: 100;
+            }
+            
+            aside {
+                float:left;
+                width:230px;
+                border-top:1px solid #CC6633;
+                border-bottom:1px solid #CC6633;
+                padding:40px 10px 0;
+                font-style: italic;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background: url(../imagens/aspas.gif) no-repeat;
+            }
+            
+            aside p {
+                color:#999;   
+            }
+            
+            
+            #apoio { float:right; width:300px; margin-top:30px }		
+            footer { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
+            
+            h1, h2, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:#C63; font-style:italic; letter-spacing:-0.05em }
+            h1 { font-size:2.6em; margin:0 5px; }
+            h4 { font-size:1.6em; margin:0 5px; }
+            p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
+        </style> 
+	</head>
+
+    <body>
+        <main>
+            <header>
+                <img src="../imagens/topo_principal.jpg" width="955" height="102" alt=""/>
+            </header>
+            
+          
+            <nav>
+                <ul>
+                  <li><a href="como-funciona.html">Como Funciona</a></li>
+                  <li><a href="info.html">Info</a></li>
+                    <li><a href="saude-financeira.html">Saúde Financeira</a></li>
+                  <li><a href="principal.html">Principal</a></li>
+                  <li><a href="simulador.html">Simulador</a></li>
+                </ul>
+            </nav>
+           
+    
+            <article>
+                <header>
+                    <h1>Saúde Finaceira</h1>
+                </header>
+                
+                <h2>Controle suas finanças </h2>
+                <p>Faça suas contas, não comprometa mais do que 30% de sua renda com dívidas. Não deixe de levar em conta despesas já comprometidas como por exemplo compras parceladas, financiamento de veículos ou imóveis. </p>
+                <p>O segundo passo mais importante para fazer seu controle financeiro pessoal é conhecer sua renda real. Um erro clássico é pensar na sua renda como o valor do seu salário, sem levar em consideração todos os descontos de impostos, plano de saúde, vales e outros benefícios.</p>
+                <p>Por isso, você precisa ter em mente seu salário líquido, ou seja, o valor que você realmente recebe todos os meses, após os descontos. Essa é a sua renda.</p>
+                <p>Ao pensar em contas a pagar, faça um pequeno exercício: liste todos os custos fixos que você possui, seja aqueles que possuem o mesmo valor todos os meses ou aqueles que possuem uma pequena variação. Por exemplo:</p>
+
+                <ul type="square">
+                    <li>Aluguel</li>
+                   <li> Luz</li>
+                  <li> Água </li> 
+                  <li> Telefone</li> 
+                    <li>Internet</li>
+                </ul>
+                <p>Qual é o valor médio de todas essas contas no mês? Esse é o seu custo de vida. Por isso, é importante calcular esse valor e tê-lo claro em sua mente, como uma parte da sua renda que já está comprometida mensalmente.</p>
+                
+                <h2>Use crédito de forma consciente</h2>
+                <p>Usar produtos de crédito e pagar suas obrigações em dia é uma receita para melhorar seu crédito. As instituições e as agências de crédito mantém os seus dados e isto conta pontos para você.</p>
+                <h2>Mantenha seu nome limpo</h2>
+                <p>Evite se tornar inadimplente em suas obrigações. Uma falha, mesmo no passado, pode piorar seu crédito por muitos anos. Preste atenção, contas de consumo não pagas (água, luz, telefonia, TV por assinatura) também sujam o seu nome.</p>
+                <h2>Não "empreste" seu nome</h2>
+                <p>Nunca permita que outra pessoa solicite um empréstimo em seu nome ou use o seu cartão de crédito. Não assine contratos como fiador/avalista se não tiver conhecimento do risco que está assumindo</p>
+                 
+                <h2>Informe dados corretamente</h2>
+                
+                <p>Ao solicitar um empréstimo seus dados serão verificados. Inconsistências podem prejudicar a avaliação da sua proposta pela instituição que irá financiá-la.</p>
+                
+                <h2>Não pague juros altos</h2>
+                <p>Não use o cheque especial ou faça apenas o pagamento parcial do cartão de crédito, pois são modalidades de crédito com taxas de juros abusivas. Procure quitar suas dívidas o quanto antes, comece eliminando ou substituindo primeiramente as dívidas mais caras.</p>
+            </article>
+
+           <div apoio>
+                
+
+            </div>
+            
+
+          <footer>
+               <p>Crédito para Todx - Rua Água Branca 1901, - Blumenau -SC</p>
+                <p><small>&copy Copyright 2021 - Kristofher Alfredo Schneider todos direitos reservados.</small></p>
+            </footer>
+            
+		  </main>
+    </body>
+</html>
